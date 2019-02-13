@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.okan.lenovo.otel.Rezervasyonislemlerii">
+
+
+    <RadioGroup
+        android:id="@+id/grup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText39"
+        android:layout_alignParentEnd="true"
+        android:gravity="left">
+
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+
+            android:text="STANDART ODA" />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/checkBox"
+
+            android:text="KLASİK SUİT ODA" />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/checkBox2"
+
+            android:text="MODERN SUİT ODA" />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/checkBox2"
+            android:layout_alignStart="@+id/checkBox4"
+            android:text="APART VİLLAR" />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/checkBox3"
+            android:layout_alignStart="@+id/checkBox3"
+            android:text="AİLE ODASI" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button39"
+        android:layout_alignParentStart="true"
+        android:text="KAYDET" />
+
+    <EditText
+        android:id="@+id/editText40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText39"
+        android:ems="10"
+        android:hint="giriş tarihi YYYY.AA.GG"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editText39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button40"
+        android:layout_alignStart="@+id/editText40"
+        android:ems="10"
+        android:hint="çıkış tarihi YYYY.AA.GG"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="rezervasyon sorgula" />
+
+    <Button
+        android:id="@+id/button39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button34"
+        android:text="rezervasyon iptal et" />
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button33"
+        android:layout_alignParentStart="true"
+        android:text="üye bilgileri güncelle" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="207dp"
+        android:layout_height="96dp"
+        android:layout_alignEnd="@+id/editText40"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="366dp"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="-145dp"
+        android:layout_marginTop="12dp"
+        android:layout_toStartOf="@+id/grup"
+        android:text="Herhangi bir rezervasyon kaydınız bulunmamaktadır..." />
+
+    <Button
+        android:id="@+id/button42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:text="ÇIKIŞ" />
+
+
+</RelativeLayout>

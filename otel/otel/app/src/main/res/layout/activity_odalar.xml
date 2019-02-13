@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.okangn.lenovo.otel.Odalar"
+    android:background="@drawable/teloda1">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="anasayfa" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="standart oda" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="klasik suit oda" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="modern suit oda" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="aile odası" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="apart villalar" />
+
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text=" Standart odalarımız toplam 108 adet olup , huzur dolu renk tonları ile modern konaklama normlarına uygun  eşsiz bir zevk ile döşenmiştir.Standart odalar 24 metrekare olup maksimum 3 yetişkin ağırlayabilecek şekilde dizayn edilmiştir. Odaların tamamı özel halı döşemeye sahiptir.
+– Lcd Tv – Duş Kabini
+– Minibar – Sehpa
+– Elektronik kasa – İki adet koltuk
+– Direkt Telefon hat – Sandalye
+– Ücretsiz Wi-Fİ – Çalışma masası
+– 24 saat oda servisi
+– Saç kurutma makinesi bulunmaktadır."
+        android:textColor="@color/colorblack"
+        android:textSize="14sp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spa"
+    tools:context="com.okangn.lenovo.otel.spa">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:textSize="14sp"
+        android:textColor="@color/colorgri"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="Profesyonel terapistler eşliğinde farklı 28 çeşit masaj uygulaması bulunmaktadır.
+Tamamen rahatlamanız için tasarlanmış, kendinizi doyasıya şımartıp, günlük telaşlardan şehir  gürültüsünden  stresten arınabileceğiniz ideal bir alan.
+
+Profesyone olarak hizmet veren Spa Center bünyesinde
+Termal Havuz
+Türk Hamamı
+Fitness Center
+Sauna
+jakuzi
+Masaj Odaları
+Özel Aile Banyoları yer almaktadır."  />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        android:text="anasayfa" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button24"
+        android:layout_alignBottom="@+id/button24"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:text="resimler" />
+
+</RelativeLayout>

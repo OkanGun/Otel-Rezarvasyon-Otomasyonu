@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.okangn.lenovo.otel.Klasikoda"
+    android:background="@drawable/klasoda">
+
+
+       <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:textSize="14sp"
+        android:textColor="@color/colorblack"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="Klasik suitlerimiz toplam sekiz adet olup , adından da anlaşılacağı üzere geleneksel tarzda dizayn edilmiştir. Klasik Suitler  32 metrekare olup maksimum 3 yetişkin ağırlayabilecek şekilde dizayn edilmiştir. Klasik suitlerin tamamı ormanmanzaralı olup balkona sahiptir.Odaların tamamı özel halı döşemeye sahiptir.
+Odalarda
+-Büyük ekran Lcd Tv -Minibar
+-Jakuzi -Elektronik kasa
+-Ücretsiz Wi-Fİ -24 saat oda servisi
+-Çalışma masası -Sandalye
+-Oturma grubu -Duşa Kabin -Sehpa
+-Saç kurutma makinesi bulunmaktadır."  />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        android:text="anasayfa" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button12"
+        android:layout_alignBottom="@+id/button12"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:text="odalar" />
+
+
+</RelativeLayout>

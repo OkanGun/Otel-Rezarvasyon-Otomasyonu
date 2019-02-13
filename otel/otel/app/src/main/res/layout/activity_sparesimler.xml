@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.okangn.lenovo.otel.sparesimler">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="375dp"
+        android:layout_height="450dp"
+        android:layout_weight="1"
+        android:text=""
+        android:background="@drawable/spa"/>
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="375dp"
+        android:layout_height="450dp"
+        android:layout_weight="1"
+        android:text=""
+        android:background="@drawable/spa2"/>
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="375dp"
+        android:layout_height="450dp"
+        android:layout_weight="1"
+        android:text=""
+        android:background="@drawable/spa3"/>
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="375dp"
+        android:layout_height="450dp"
+        android:layout_weight="1"
+        android:text=""
+        android:background="@drawable/spa4"/>
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="375dp"
+        android:layout_height="450dp"
+        android:layout_weight="1"
+        android:text=""
+        android:background="@drawable/spa5"/>
+
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="anasayfa" />
+
+
+</RelativeLayout>

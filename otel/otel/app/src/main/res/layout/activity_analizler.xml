@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.okan.lenovo.otel.analizler">
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+
+
+        android:text="@string/anasayfa"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="37dp"
+        android:text="@string/analizi_ba_alat"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="37dp" />
+
+    <ScrollView
+        android:layout_above="@+id/button41"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <com.jjoe64.graphview.GraphView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:id="@+id/graph" />
+
+            <com.jjoe64.graphview.GraphView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:id="@+id/graph2" />
+
+            <com.jjoe64.graphview.GraphView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:id="@+id/graph3" />
+            <com.jjoe64.graphview.GraphView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:id="@+id/graph4" />
+
+            <com.jjoe64.graphview.GraphView
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:id="@+id/graph5" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

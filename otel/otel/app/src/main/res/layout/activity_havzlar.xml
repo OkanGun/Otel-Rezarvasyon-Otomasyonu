@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/acikhavz"
+    tools:context="com.okangn.lenovo.otel.havzlar">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:textSize="14sp"
+        android:textColor="@color/colorgri"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="Açık Termal Havuz:
+Otel bünyesinde bulunan termal havuzumuz 08:00-23:00 saatleri arasında karma olarak hizmet vermektedir.Kar yağarken sıcak termal suyun keyfini sürecek eşsiz manzarayı seyredeceksiniz.Havuz derinliği her noktada sabit olup 1,55 metredir ve toplam 220 metrekaredir .Havuzumuz kaynak termal havuzdur."/>
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        android:text="anasayfa" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button20"
+        android:layout_alignBottom="@+id/button20"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:text="kapalı havuzlar" />
+
+</RelativeLayout>

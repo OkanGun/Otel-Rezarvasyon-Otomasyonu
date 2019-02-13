@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/seffaf_siyah_yuzde_5"
+    tools:context="com.okan.lenovo.otel.aileodasi">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:textSize="14sp"
+        android:textColor="@color/colorblack"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="Modern suitlerimiz toplam sekiz adet olup , adından da anlaşılacağı üzere global ve yenilikci tarzda dizayn edilmiştir. Modern Suitler  38 metrekare olup maksimum 3 yetişkin ağırlayabilecek şekilde dizayn edilmiştir. Modern suitlerin tamamı orman manzaralı olup balkona sahiptir.Odaların tamamı özel halı döşemeye sahiptir.
+-Odalarda -Duşa Kabin -Ücretsiz Wi-Fİ
+-Büyük Ekran Lcd Tv -24 saat oda servisi
+-Minibar -Jakuzi -Çalışma masası ve sandalye
+-Elektronik kasa -Direkt Telefon Hat
+-Özel mobilya -Sehpa
+-Oturma Grubu
+-Saç Kurutma Makinesi bulunmaktadır."/>
+
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:text="anasayfa" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button16"
+        android:layout_alignBottom="@+id/button16"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:text="odalar" />
+
+    <Button
+        android:id="@+id/button44"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:layout_above="@+id/button17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/aileoda"
+        android:text="" />
+
+
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.okan.lenovo.otel.Rezervasyon"
+    android:background="@drawable/otel4">
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/but1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="anasayfa" />
+
+
+
+                <Button
+                    android:id="@+id/but3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="odalar" />
+
+                <Button
+                    android:id="@+id/but4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="havuzlar" />
+
+                <Button
+                    android:id="@+id/but5"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="spa" />
+
+                <Button
+                    android:id="@+id/but6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="restoran" />
+
+                <Button
+                    android:id="@+id/but7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="iletişim"/>
+
+
+                <Button
+                    android:id="@+id/but9"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="analizler" />
+
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="106dp"
+        android:background="@color/colorgri"
+        android:text="T.C:"
+        android:textColor="@color/colorblack"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/textView"
+        android:ems="10"
+        android:textColor="@color/colorblack"
+        android:background="@color/colorgri"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="37dp"
+        android:text="GİRİŞ YAP"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:textSize="16sp"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="15dp"
+        android:text="ÜYE OL" />
+
+</RelativeLayout>

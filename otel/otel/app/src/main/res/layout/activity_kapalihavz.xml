@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kapalihvz"
+    tools:context="com.okangn.lenovo.otel.kapalihavz">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:textSize="14sp"
+        android:textColor="@color/colorgri"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="Ana Bina Kapalı Termal Havuz :
+200 Metrekare büyüklüğünde olan havuzumuz aynı zamanda … metrekare çocuk havuzuna sahiptir.Genel anlamda karma olarak hizmet veren havuzumuz saat 08:00-10:00 ve 13:00-15:00 arasında bayanlara özel olarak hizmet vermektedir.Derinliği her nokta da 1,55 metre olan havuzumuz da dilediğiniz anlarda dinlenebileceğiniz şezlonglar ve termal fıskiyeler bulunmaktadır.
+Ek Bina Bay Kapalı Termal Havuz
+95 Metrekare büyüklüğünde olan havuzumuz açık bulunduğu 08:00-23:00 saatleri arasında sadece baylara özel hizmet vermektedir.Havuz derinliği her noktada sabit olup 1,55 metredir.Havuzumuz doğal kaynak termal havuzdur.
+Ek Bina Bayan Kapalı Termal Havuz
+90 Metrekare büyüklüğünde olan havuzumuz açık bulunduğu 08:00-23:00 saatleri arasında sadece bayanlara özel hizmet vermektedir.Havuz derinliği her noktada sabit olup 1,55 metredir.Havuzumuz doğal kaynak termal havuzdur."/>
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        android:text="anasayfa" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button22"
+        android:layout_alignBottom="@+id/button22"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:text="acık hazular" />
+
+
+
+</RelativeLayout>

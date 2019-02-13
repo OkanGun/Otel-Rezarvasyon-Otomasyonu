@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.okan.lenovo.otel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Birsayfa">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Rezervasyon" />
+        <activity android:name=".uyeol" />
+        <activity android:name=".Odalar" />
+        <activity android:name=".Klasikoda" />
+        <activity android:name=".modernoda" />
+        <activity android:name=".aileodasi" />
+        <activity android:name=".villlaoda" />
+        <activity android:name=".havzlar" />
+        <activity android:name=".kapalihavz" />
+        <activity android:name=".spa" />
+        <activity android:name=".sparesimler" />
+        <activity android:name=".restrntlar" />
+        <activity android:name=".iletisim" />
+        <activity android:name=".analizler" />
+        <activity android:name=".Rezervasyonislemlerii" />
+    </application>
+
+</manifest>

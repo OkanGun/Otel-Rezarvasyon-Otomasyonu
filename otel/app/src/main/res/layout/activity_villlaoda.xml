@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/villaoda"
+    tools:context="com.okangn.lenovo.otel.villlaoda">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:textSize="14sp"
+        android:textColor="@color/colorgri"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="Otelden bağımsız ana bina karşısında müstakil olarak konuşlandırılmış odalarımızdır.Bir blokta 4 adet villa bulunmakta olup her villa 1+1 studio daire şeklindedir.Yatak odası 24 metrekare , oturma odası ise 22 metrekaredir.Tüm villalar balkona sahiptir.Odalarda
+Lcd Tv -Duşa Kabin -Elektronik kasa
+Minibar -İki Adet Koltuk -Sehpa
+Çalışma masası ve sandalye
+Direkt Telefon hat -24 saat oda servisi
+Ücretsiz Wi-Fİ
+Saç Kurutma Makinesi bulunmaktadır."/>
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        android:text="anasayfa" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button18"
+        android:layout_alignBottom="@+id/button18"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:text="odalar" />
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/otel1"
+    tools:context="com.okangn.lenovo.otel.iletisim">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Toplam 30 dönüm üzerine kurulu olan tesisimiz Karadeniz’in en büyük termal tesisi olma özelliğine sahiptir.Kaçkar dağlarının dorukları arasındaki uzunca bir vadi içerisine yerleştirilmiş adeta yeşil renkli saksıda duran bir avuç karanfil misalidir.
+Adres : Ilıca köyü / İkizdere / Rize / Türkiye
+Tel: 0464 1234567
+Faks : 0464 1234567
+E-posta : iletisim@otel.com.tr"
+        android:textColor="@color/colorblack"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="anasayfa" />
+</RelativeLayout>

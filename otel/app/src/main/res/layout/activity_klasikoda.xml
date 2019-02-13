@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.okan.lenovo.otel.Klasikoda"
+    android:background="@color/colorgri">
+
+
+       <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:textSize="14sp"
+        android:textColor="@color/seffaf_siyah_yuzde_95"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="Klasik suitlerimiz toplam sekiz adet olup , adından da anlaşılacağı üzere geleneksel tarzda dizayn edilmiştir. Klasik Suitler  32 metrekare olup maksimum 3 yetişkin ağırlayabilecek şekilde dizayn edilmiştir. Klasik suitlerin tamamı ormanmanzaralı olup balkona sahiptir.Odaların tamamı özel halı döşemeye sahiptir.Odalarda
+-Büyük ekran Lcd Tv -Minibar -24 saat oda servisi
+-Jakuzi -Elektronik kasa -Duşa Kabin -Sehpa
+-Ücretsiz Wi-Fİ  -Sandalye -Saç kurutma makinesi
+-Çalışma masası -Oturma grubu bulunmaktadır."  />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="anasayfa" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="odalar" />
+
+    <Button
+        android:id="@+id/button47"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_above="@+id/button13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/klasoda"
+        android:text="" />
+
+
+</RelativeLayout>
